@@ -1,0 +1,121 @@
+{
+	"workflow_id (?)": {    
+		"workflow_id": "?",
+		"project": "(from variable)",
+		"workflow_name": "*** _ AGY_DM_Load 84 erarchyDims",
+		"workflow_description": "",
+		"tasks": {
+			"task_id (?)": {
+				"task_id": "?",
+				"task_type": "Session",   <taskINstance>,
+				"name": "s_m_ .& _AgencyDim_v3",
+				"task_name": "s_m_.& _Load_Agency", 
+				"execution_order": 0,
+				# search for <Session> tag with task_name
+				# search for <Mapping> with mappingname attribute from <Session>
+				"mapping": { (got within workflow)
+				
+					"mapping_id": ,
+					"mapping_name": "m_ ## _DM_Load_Agenc"  <Mapping>,
+					"mapping_description": "", 
+					"instances": {
+						"instance_id": { <Instance> within <Mapping>
+							"instance_name": "AgencyDim_3 Update> History",
+							"transformation_type": "Target Definition",
+							"transformation_name": "1 AgencyDim",
+							"execution_order": 0,
+							"fields": [
+								# search for <TRANSFORMATION> tag with transformation_name
+								# within <TRANSFORMATION> put all <TRANSFORMATIONFIELD>
+								{
+									"field_id": ,
+									"field_name": 11 AgencyDimID,
+									"field_type": "int",
+									"is_input": "FALSE",
+									"is_output": "FALSE",
+									"is_lookup": "FALSE",
+								},
+								{
+									"field_id": ,
+									"field_name": 12 Current.. ag,
+									"field_type": "bit",
+									"is_input": "FALSE",
+									"is_output": "FALSE",
+									"is_lookup": ,
+								}
+
+							]
+						},
+						"instance_id": { <Instance> within <Mapping>
+		line 4721            "instance_name": "UPD_## _SalesDivision",
+							"transformation_type": "Update Strategy",
+							"transformation_name": "",
+							"execution_order": 0,
+							"fields": [  
+								# search for <TRANSFORMATION> tag with transformation_name
+								# within <TRANSFORMATION> put all <TRANSFORMATIONFIELD>
+								{
+									"field_id": ,
+									"field_name": "AKID",
+									"field_type": "integer",
+									"is_input": "TRUE",
+									"is_output": "TRUE",
+									"is_lookup": "FALSE"
+								},
+								{
+									"field_id": ,
+									"field_name": "DimId",
+									"field_type": "integer",
+									"is_input": "TRUE",
+									"is_output": "TRUE",
+									"is_lookup": "FALSE"
+								}
+
+							]
+						},
+						"instance_id": { <Instance> within <Mapping>
+		line 4726            "instance_name": "LKP_^ SalesManager",
+							transformation_type: "Lookup Procedure"
+							transformation_name: ""
+							execution_order: ,
+							fields: [
+								{
+									field_id:
+									field_name: ","
+									field_type: integer
+									is_input: FALSE
+									is_output: FALSE
+									is_lookup: TRUE
+								},
+								{
+									field_id:
+									field_name: 
+									field_type: integer
+									is_input: FALSE
+									is_output: TRUE
+									is_lookup: TRUE
+								},
+
+							]
+						}
+
+					}
+				}
+			},
+			"task_id (?)": {
+				"task_id": "?",
+				"task_type": "Session",   <taskINstance>
+				"name": "s_m_. 0 _UnderwritingDivisionDim",
+				"task_name": "s_m_5 _DM_ 09 erwritingDivisionDim", 
+				"execution_order": 0,
+				# search for <Session> tag with task_name
+				# search for <Mapping> with mappingname attribute from <Session>
+				"mapping": { 
+				(found outside workflow)
+					
+				}
+			}
+		}
+	}
+}
+
