@@ -1,0 +1,51 @@
+1
+2 2
+3 3 3
+4 4 4 4
+
+
+1
+1 2
+1 2 3
+1 2 3 4
+
+
+name = 'sohel akhtar' 
+print the indexes of ch. 'a'
+
+
+Class & obj eg.
+difference between Class var. & Instance var
+
+Implement Queue using class & obj.
+			Stack, Linked List
+
+
+How many 1's are there between 1 and 100 inclusively? ans=21
+
+
+Count no. of each letters in a text (make function)  
+eg. "I am Sohel Akhtar. I have graduated in Computer engineering in 2023. Currently I am working as an Python developer....."
+
+
+
+Time Palindrome Count
+# start_time      end_time        No. of palindrome times
+#   00:00           02:20               3   (00:00, 01:10, 02:20)
+#   00:00           05:58               ?
+
+
+File Handling -> write, read, append
+
+
+Inheritance: Emp, Developer, Manager
+				get_details()
+
+
+git, github? know
+
+try...except finally
+
+Proj- 	Virtual env, Gloval env
+
+
